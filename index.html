@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Email Newsletter-Postman</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <style type="text/css">
+        * {
+            margin: 0%;
+            border: 0;
+            padding: 0%;
+        }
+        body {
+            margin: 0 auto;
+            padding: 2px;
+            max-width: 800px;
+            background-color: white;
+
+        }
+
+        #wrapper {
+            margin: 0 auto;
+            background-color: #f4815b;
+            padding: 25px 0 0 25px;
+
+        }
+
+        header {
+            display: block;
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin: 0 55px 5px 0;
+            display: -webkit-inline-box;
+        }
+
+        #title {
+            padding: 25px 0 0 35px;
+
+        }
+
+        section {
+            margin-top: 15px;
+            margin-left: 2%;
+
+        }
+
+        #shadow {
+            height: 2px;
+            width: 93%;
+            position: relative;
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+            padding: 3px;
+        }
+
+        .inner-container {
+            background-color: white;
+            padding: 20px 30px 40px 30px;
+            margin: 0 0 0 14px;
+            width: 82%;
+            display: inline-block;
+        }
+
+        ul {
+            padding: 5px 0px 40px 20px;
+            display: inline-block;
+        }
+
+        li {
+            padding: 10px 30px 5px 5px;
+            line-height: 19px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .button {
+            background-color: #f4815b;
+            padding: 2%;
+            color: white;
+            border-radius: 50px;
+            width: 80px;
+            display: -webkit-inline-box;
+            text-decoration: none;
+        }
+
+        .title2 {
+            font-size: 14px;
+        }
+        .link {
+            color: rgb(143, 29, 16);
+        }
+
+        footer {
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Header -->
+        <img src="images/logo.png" class="logo" alt="postman logo" width="50" height="50">
+        <header>
+            <p id="title">Postman Monthly Newsletter: May 2019</p>
+        </header>
+
+        <!-- Inner Content #1-->
+        <section>
+            <div class="inner-image">
+                <img src="images/image1.png" alt="banner image" width="94%">
+            </div>
+            <div id="shadow"></div>
+            <div class="inner-container">
+                <h1>New! Design APIs Directly in Postman</h1><br>
+                <h5>We're excited to announce Postman's new feature for creating APIs!</h5><br>
+                <p>Manage every aspect of your API with the new API tab and versioning. The new update is packed with
+                    new features that make API design and development quicker and easier.</p><br>
+                <h5>Here's what you'll get when you update to Postman v7.1:</h5><br>
+                <ul>
+                    <li><strong>The API tab</strong> creates an organized workflow that is centered around your API so
+                        you can design and develop from start to finish in Postman.</li>
+                    <li><strong>Extended schema support</strong> allows you to write, edit, or import your API schema to
+                        define your API.</li>
+                    <li><strong>API versioning</strong> allows you to create and maintain multiple versions of an API
+                        simultaneously.</li>
+                    <li><strong>Version tagging</strong> allows you to tag and link <strong>API elements</strong> like
+                        Postman Collections, mock servers, and variables to any version of your API.</li>
+                </ul>
+                <div class="center">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inner Content #2-->
+        <section>
+            <div class="inner-container">
+                <h1>POST/CON 2019 is Coming Soon</h1><br>
+                <p class="title2">The <strong>Postman User Conference</strong> is back in SF on <strong>September 11th &
+                        12th!</strong> </p><br>
+                <p>The two-day event will include technical sessions and detailed use cases from industry experts and
+                    speakers from <strong>PayPal, Cisco DevNet, Atlassian,</strong> and more. </p><br>
+                <ul>
+                    <li><strong>Pre-Conference Workshop:</strong> Wednesday, September 11th - Get advanced training with
+                        Postman and earn a Postman certification!</li>
+                    <li><strong>Full-day Conference:</strong> Thursday, September 12th - See a full day of sessions
+                        covering all things Postman and all things API.</li>
+                </ul>
+                <h5>Save your spot now!</h5>
+                <ul>
+                    <li>Coming from out of town? <a href="#" class="link">Book a hotel with the Postman discount.</a></li>
+                    <li>Need more info (location, pricing, timing, etc.)? <a href="#" class="link">Get the details.</a></li>
+                    <li>Ready to register? <a href="#" class="link">Buy early bird tickets!</a></li>
+                    <li>Interested in speaking at POST/CON? <a href="#" class="link">Share your idea for a talk.</a></li>
+                </ul>
+                <div class="center">
+                    <a href="#" class="button">Buy Tickets</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            © 2019 Postman Inc., All Rights Reserved.<br>
+            595 Market Street, Suite 1130 San Francisco, CA 94105<br>
+            Click to <a href="#" class="link">unsubscribe</a> from these emails.
+        </footer>
+    </div>
+
+</body>
+
+</html>
